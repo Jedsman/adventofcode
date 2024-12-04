@@ -58,14 +58,7 @@ This implements the distance calculation challenge in Go, converted from the Pyt
 
 To run the Go version:
 ```bash
-go run main.go
+go run day1.go
 ```
 
 Make sure the `day1.data` file is in the same directory as the program.
-
-## Code Structure
-
-The code is organized into three main functions:
-1. `parseInput`: Handles the input processing for both parts
-2. `Part1`: Calculates distances between sorted pairs
-3. `Part2`: Calculates similarity scores based on frequencies
